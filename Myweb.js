@@ -2,10 +2,10 @@ const searchInput = document.getElementById('code-search');
 const searchButton = document.getElementById('search-button');
 const codeResults = document.getElementById('code-results');
 
-fetch('./codes.json')
-  .then(response => response.json())
-  .then(data => {
-    const codeSnippets = data;
+fetch('(https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Operators.cpp)') // replace filename.cpp with your actual file name
+  .then(response => response.text())
+  .then(code => {
+    const codeSnippets = [{ topic: 'Your Topic', info: '', code: [code] }]; // Adjust topic and info as needed
     searchButton.addEventListener('click', () => {
       const searchTerm = searchInput.value.toLowerCase().trim();
       if (searchTerm === '') {
@@ -30,5 +30,6 @@ fetch('./codes.json')
       }
       codeResults.innerHTML = resultHtml;
       searchInput.value = ''; // Clear the search input field
-    });
-  });
+    });
+  });
+
