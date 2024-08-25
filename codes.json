@@ -45,13 +45,13 @@
       "int main() {",
       " int a = 5;",
       "cout << a << endl;",
-      " cout << "Pre: " << (++a) << endl;",
+      " cout << 'Pre:' << (++a) << endl;",
       " int a = 5;",
-      " cout << "Pre: " << (a++) << endl;",
+      " cout << 'Pre: ' << (a++) << endl;",
       " int a = 5;",
-      " cout << "Pre: " << (--a) << endl;",
+      " cout << 'Pre: ' << (--a) << endl;",
       " int a = 5;",
-      " cout << "Post: " << (a--) << endl",
+      " cout << 'Post: ' << (a--) << endl",
       "}"
     ]
   }
