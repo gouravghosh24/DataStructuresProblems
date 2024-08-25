@@ -10,7 +10,7 @@ searchButton.addEventListener('click', () => {
   }
   
   // Assuming you have a JSON file named 'files.json' with the folder structure and file names
-  fetch('Codes.json')
+  fetch('codes.json')
     .then(response => response.json())
     .then(files => {
       let foundFile = null;
