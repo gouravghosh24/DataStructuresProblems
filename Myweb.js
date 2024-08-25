@@ -2,34 +2,33 @@ const searchInput = document.getElementById('code-search');
 const searchButton = document.getElementById('search-button');
 const codeResults = document.getElementById('code-results');
 
-fetch('(https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Operators.cpp)') // replace filename.cpp with your actual file name
-  .then(response => response.text())
-  .then(code => {
-    const codeSnippets = [{ topic: 'Your Topic', info: '', code: [code] }]; // Adjust topic and info as needed
-    searchButton.addEventListener('click', () => {
-      const searchTerm = searchInput.value.toLowerCase().trim();
-      if (searchTerm === '') {
-        codeResults.innerHTML = '';
-        return;
-      }
-      const foundSnippets = {};
-      codeSnippets.forEach(snippet => {
-        if (snippet.topic.toLowerCase().includes(searchTerm)) {
-          foundSnippets[snippet.topic] = snippet;
-        }
-      });
-      let resultHtml = "";
-      for (const topic in foundSnippets) {
-        resultHtml += `
-          <div class="code-block">
-            <h3>${foundSnippets[topic].topic}</h3>
-            <p>${foundSnippets[topic].info}</p>
-            <pre><code class="cpp">${foundSnippets[topic].code.join('\n\n')}</code></pre>
-          </div>
-        `;
-      }
-      codeResults.innerHTML = resultHtml;
-      searchInput.value = ''; // Clear the search input field
-    });
-  });
+const codeSnippets = [ 
+  // your code snippets array
+];
 
+searchButton.addEventListener('click', () => {
+  const searchTerm = searchInput.value.toLowerCase().trim();
+  if (searchTerm === '') {
+    codeResults.innerHTML = '';
+    return;
+  }
+  let foundSnippet = null;
+  codeSnippets.forEach(snippet => {
+    if (snippet.topic.toLowerCase().includes(searchTerm)) {
+      foundSnippet = snippet;
+    }
+  });
+  if (foundSnippet) {
+    let resultHtml = `
+      <div class="code-block">
+        <h3>${foundSnippet.topic}</h3>
+        <p>${foundSnippet.info}</p>
+        <pre><code class="cpp">${foundSnippet.code.join('\n')}</code></pre>
+      </div>
+    `;
+    codeResults.innerHTML = resultHtml;
+  } else {
+    codeResults.innerHTML = 'No matching code snippet found';
+  }
+  searchInput.value = ''; // Clear the search input field
+});
