@@ -1,63 +1,16 @@
 [
   {
-    "topic": "Arrays",
-    "info": "An array is a data structure that stores a collection of elements, each identified by an index or key.",
-    "code": [
-      "#include <iostream>",
-      "using namespace std;",
-      "int myArray[5];",
-      "myArray[0] = 1;",
-      "myArray[1] = 2;",
-      "myArray[2] = 3;",
-      "myArray[3] = 4;",
-      "myArray[4] = 5;",
-      "return 0",
-      "}"
-    ]
-  },
-  {
-    "topic": "Objects",
-    "info": "An object is a data structure that stores a collection of key-value pairs.",
-    "code": [
-      "struct Person {",
-      "  std::string name;",
-      "  int age;",
-      "};",
-      "Person person;",
-      "person.name = \"John\";",
-      "person.age = 30;"
-    ]
-  },
-  {
-    "topic": "Hello World",
-    "info": "A classic C++ program that prints 'Hello, World!' to the console. Header Files included in the code iostream is a header file related to input output and standard library. #include is a preprocessor directive, std is standard and it is a dictionary that stores the defination of all the identifiers, here all the code written inside the curly brackets are the properties of main function, Return will return the execution of the code and return 0 -> means that the code has executed successfully that are inside the int main scope",
-    "code": [
-      "#include <iostream>",
-      "using namespace std;",
-      "int main() {",
-      "  std::cout << \"Hello, World!\" << std::endl;",
-      "  return 0;",
-      "}"
-    ]
-  },
-  {
-    "topic": "Operators",
-    "info": "Operators are of multiple types, Unary Post increment a++ use the value first then print and then increment, and Pre increment ++a increment the value first and then print. Assignment operators are =, +=, -=, *=, /=,  %= . You cannot use the modulo operator (%) with floating-point numbers (float, double, long double) in C++. The modulo operator (%) is only defined for integer types (int, long, long long, etc.). When you try to use it with floating-point numbers, you will get a compiler error. If you need to find the remainder of a division involving floating-point numbers, you can use the fmod function from the <cmath> library, we also have Bitwise operator : Used for bit level opration 00001 ^ 00010, & = AND, | = OR, ` = NOT, << = Left Shif(works as *power of 2), >> = Right Shift (works as /2), ^ = XOR. ",
-    "code": [
-      "#include <iostream>",
-      "using namespace std;",
-      "int main() {",
-      " int a = 5;",
-      "cout << a << endl;",
-      " cout << 'Pre:' << (++a) << endl;",
-      " int a = 5;",
-      " cout << 'Pre: ' << (a++) << endl;",
-      " int a = 5;",
-      " cout << 'Pre: ' << (--a) << endl;",
-      " int a = 5;",
-      " cout << 'Post: ' << (a--) << endl",
-      "}"
+    "name": "Operators",
+    "folders": [
+      {
+        "name": "Operators",
+        "files": [
+          {
+            "name": "Operatorsusingcp.cpp",
+            "url": "(https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Operators.cpp)"
+          }
+        ]
+      }
     ]
   }
-  
 ]
