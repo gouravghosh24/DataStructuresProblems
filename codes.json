@@ -3,12 +3,16 @@
     "topic": "Arrays",
     "info": "An array is a data structure that stores a collection of elements, each identified by an index or key.",
     "code": [
+      "#include <iostream>",
+      "using namespace std;",
       "int myArray[5];",
       "myArray[0] = 1;",
       "myArray[1] = 2;",
       "myArray[2] = 3;",
       "myArray[3] = 4;",
-      "myArray[4] = 5;"
+      "myArray[4] = 5;",
+      "return 0",
+      "}"
     ]
   },
   {
