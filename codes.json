@@ -1,3 +1,4 @@
+
 [
   {
     "name": "Operators",
@@ -7,10 +8,249 @@
         "files": [
           {
             "name": "Operatorsusingcp.cpp",
-            "url": "(https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Operators.cpp)"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Operators.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hello World",
+    "folders": [
+      {
+        "name": "Hello World",
+        "files": [
+          {
+            "name": "Main.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Main.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Loops",
+    "folders": [
+      {
+        "name": "Loops",
+        "files": [
+          {
+            "name": "Loops.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Loops.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Do while",
+    "folders": [
+      {
+        "name": "Do while",
+        "files": [
+          {
+            "name": "DoWhileLoops.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/DoWhileLoops.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Number System",
+    "folders": [
+      {
+        "name": "Number System",
+        "files": [
+          {
+            "name": "NumberSystems.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/NumberSystems.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Function",
+    "folders": [
+      {
+        "name": "Function",
+        "files": [
+          {
+            "name": "FunctionsInCPP.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/NumberSystems.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Switch Case",
+    "folders": [
+      {
+        "name": "Switch Case",
+        "files": [
+          {
+            "name": "SwitchCases.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/SwitchCases.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Variable",
+    "folders": [
+      {
+        "name": "Variable",
+        "files": [
+          {
+            "name": "Variables&DataTypes.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Variables%26DataTypes.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Data types",
+    "folders": [
+      {
+        "name": "Data types",
+        "files": [
+          {
+            "name": "Variables&DataTypes.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Variables%26DataTypes.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ternary Operator",
+    "folders": [
+      {
+        "name": "Ternary Operator",
+        "files": [
+          {
+            "name": "TernaryOperator.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/TernaryOperator.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Typecasting",
+    "folders": [
+      {
+        "name": "Typecasting",
+        "files": [
+          {
+            "name": "TypeCastings.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/TypeCastings.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Basics",
+    "folders": [
+      {
+        "name": "Basics",
+        "files": [
+          {
+            "name": "Main.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Main.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Array",
+    "folders": [
+      {
+        "name": "Array",
+        "files": [
+          {
+            "name": "ConceptPract.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/ARRAYS/ConceptPract.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "maps",
+    "folders": [
+      {
+        "name": "maps",
+        "files": [
+          {
+            "name": "Map1.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/MAP/Map1.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vectors",
+    "folders": [
+      {
+        "name": "Vectors",
+        "files": [
+          {
+            "name": "Vector1.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/VECTORS/Vector1.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "String",
+    "folders": [
+      {
+        "name": "String",
+        "files": [
+          {
+            "name": "PrintStringChars.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/STRINGS/PrintStringChars.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Queue",
+    "folders": [
+      {
+        "name": "Queue",
+        "files": [
+          {
+            "name": "Queue1.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/QUEUE/Queue1.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Binary search",
+    "folders": [
+      {
+        "name": "Binary search",
+        "files": [
+          {
+            "name": "BinarySearchUsingSTL.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/SEARCHINGSORTING/BinarySearchUsingSTL.cpp"
           }
         ]
       }
     ]
   }
+
 ]
