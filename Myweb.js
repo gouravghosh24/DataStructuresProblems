@@ -11,18 +11,15 @@ searchButton.addEventListener('click', () => {
   
   // Assuming you have a JSON file named 'files.json' with the folder structure and file names
   fetch('codes.json')
-    .then(response => response.json())
-    .then(files => {
-      let foundFile = null;
-      files.forEach(folder => {
-        folder.folders.forEach(subfolder => {
-          subfolder.files.forEach(file => {
-            if (file.name.toLowerCase().includes(searchTerm)) {
-              foundFile = file;
-            }
-          });
-        });
-      });
+  .then(response => response.json())
+  .then(files => {
+    let foundFile = null;
+    files.forEach(file => {
+      if (file.name.toLowerCase().includes(searchTerm)) {
+        foundFile = file;
+      }
+    });
+
       
       if (foundFile) {
         fetch(foundFile.url)
