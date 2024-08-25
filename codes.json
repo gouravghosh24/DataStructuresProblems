@@ -35,6 +35,25 @@
       "  return 0;",
       "}"
     ]
+  },
+  {
+    "topic": "Operators",
+    "info": "Operators are of multiple types, Unary Post increment a++ use the value first then print and then increment, and Pre increment ++a increment the value first and then print. Assignment operators are =, +=, -=, *=, /=,  %= . You cannot use the modulo operator (%) with floating-point numbers (float, double, long double) in C++. The modulo operator (%) is only defined for integer types (int, long, long long, etc.). When you try to use it with floating-point numbers, you will get a compiler error. If you need to find the remainder of a division involving floating-point numbers, you can use the fmod function from the <cmath> library, we also have Bitwise operator : Used for bit level opration 00001 ^ 00010, & = AND, | = OR, ` = NOT, << = Left Shif(works as *power of 2), >> = Right Shift (works as /2), ^ = XOR. ",
+    "code": [
+      "#include <iostream>",
+      "using namespace std;",
+      "int main() {",
+      " int a = 5;",
+      "cout << a << endl;",
+      " cout << "Pre: " << (++a) << endl;",
+      " int a = 5;",
+      " cout << "Pre: " << (a++) << endl;",
+      " int a = 5;",
+      " cout << "Pre: " << (--a) << endl;",
+      " int a = 5;",
+      " cout << "Post: " << (a--) << endl",
+      "}"
+    ]
   }
   
 ]
