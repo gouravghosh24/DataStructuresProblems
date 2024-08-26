@@ -191,6 +191,24 @@ footer {
   clear: both;
 }
 
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.social-links a:hover {
+  color: #ccc;
+}
+
+
 /* Responsive Design */
 
 @media (max-width: 768px) {
