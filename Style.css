@@ -131,7 +131,6 @@ pre {
   width: 100%;
   margin: 20px auto;
   padding: 10px;
-  padding-right:5px;
 }
 
 .search-box input[type="search"] {
@@ -149,6 +148,7 @@ pre {
   background-color: #2868a8;
   color: #fff;
   cursor: pointer;
+  margin-left:10px;
 }
 
 .search-box button:hover {
