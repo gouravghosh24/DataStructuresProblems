@@ -1,70 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DataStructuresProblems</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css" integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="Style.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-user-plus"></i> &nbsp; SignUp</a></li>
-                <li><a href="#">&nbsp; Login</a></li>
-            </ul>
-        </nav>
+      <!--Social Media links -->
+      <nav>
+        <ul>
+          <li class="social-links">
+            <a href="https://www.linkedin.com/in/gouravghosh24/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/gouravghosh24" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li class="login-signup">
+            <a href="#"> <i class="fa-solid fa-user-pen"></i> &nbsp; SignUp &nbsp;</a>
+            <a href="#">
+                <i class="fa-solid fa-universal-access"></i> &nbsp; Login &nbsp;</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="main-container">
-            <section class="about-me-container">
-                <div class="about-me-container-inner">
-                    <div class="about-me">
-                        <img src="profpic.jpg" alt="Your Profile Picture" class="profile-picture" />
-                        <h2 class="about-me"> About Me &nbsp; <i class="fa-solid fa-user"></i> </h2>
-                        <p> Hello! I'm Gourav, a passionate web developer with a love for building innovative and user-friendly digital solutions.I am developing a strong proficiency in e.g. HTML, CSS, JavaScript, etc. </p>
-                        <p> I'm dedicated to staying up-to-date with the latest industry trends and technologies, ensuring that my skills are always current and in-demand. When I'm not developing websites, you can find me practicing real-time coding challenges as I love practicing data structures using C++. </p>
-                    </div>
-                    <div class="skills">
-                        <h2>Build Under progress &nbsp;<i class="fa-solid fa-terminal"></i></h2>
-                        <p> I am learning to code my softwares in a more optimised way, hence I am learning Data structures and I am trying to dive deep into data Structures and algorithms using C++. I assure you that I am going to keep you updated as I progress in my path to learn more and more about Data structures and algorithms </p>
-                        <h3>Topics that you will find here</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-book-atlas"></i> &nbsp; C++ Standard Template Library</li>
-                            <li><i class="fa-solid fa-stairs"></i> &nbsp; Algorithms to Optimise your program</li>
-                            <li><i class="fa-solid fa-diagram-project"></i> &nbsp; Data Structures related topics</li>
-                            <!-- Add more skills here -->
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="code-list">
-                <h2>Data Structure and Algorithm</h2>
-                <div class="code-container">
-                    <div class="search-box">
-                        <input type="search" id="code-search" placeholder="Search for the DSA topic you wish to revise" />
-                        <button id="search-button"> <i class="fa-solid fa-magnifying-glass"></i> </button>
-                    </div>
-                    <div id="code-results">
-                        <!-- Search results will be displayed here -->
-                    </div>
-                </div>
-            </section>
-        </div>
+      <div class="main-container">
+        <section class="about-me-container">
+          <div class="about-me-container-inner">
+            <div class="about-me">
+              <img
+                src="profpic.jpg"
+                alt="Your Profile Picture"
+                class="profile-picture"
+              />
+              <h2 class="about-me">
+                About Me &nbsp; <i class="fa-solid fa-user"></i>
+              </h2>
+              <p>
+                Hello! I'm Gourav, a passionate web developer with a love for
+                building innovative and user-friendly digital solutions.I am
+                developing a strong proficiency in e.g. HTML, CSS, JavaScript,
+                etc.
+              </p>
+              <p>
+                I'm dedicated to staying up-to-date with the latest industry
+                trends and technologies, ensuring that my skills are always
+                current and in-demand. When I'm not developing websites, you can
+                find me practicing real-time coding challenges as I love
+                practicing data structures using C++.
+              </p>
+            </div>
+            <div class="skills">
+              <h2>
+                Build Under progress &nbsp;<i class="fa-solid fa-terminal"></i>
+              </h2>
+              <p>
+                I am learning to code my softwares in a more optimised way,
+                hence I am learning Data structures and I am trying to dive deep
+                into data Structures and algorithms using C++. I assure you that
+                I am going to keep you updated as I progress in my path to learn
+                more and more about Data structures and algorithms
+              </p>
+              <h3>Topics that you will find here</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-book-atlas"></i> &nbsp; C++ Standard
+                  Template Library
+                </li>
+                <li>
+                  <i class="fa-solid fa-stairs"></i> &nbsp; Algorithms to
+                  Optimise your program
+                </li>
+                <li>
+                  <i class="fa-solid fa-diagram-project"></i> &nbsp; Data
+                  Structures related topics
+                </li>
+                <!-- Add more skills here -->
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="code-list">
+          <h2>Data Structure and Algorithm</h2>
+          <div class="code-container">
+            <div class="search-box">
+              <input
+                type="search"
+                id="code-search"
+                placeholder="Search for the DSA topic you wish to revise"
+              />
+              <button id="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <div id="code-results">
+              <!-- Search results will be displayed here -->
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
     <footer>
-  <p>&copy; 2024 Gourav Ghosh</p>
-  <div class="social-links">
-    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-    <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
-  </div>
-</footer>
+      <p>
+        &copy; 2024 Gourav Ghosh
+        <span class="social-links">
+          <a href="https://www.linkedin.com/in/gouravghosh24/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/gouravghosh24" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </span>
+      </p>
+    </footer>
 
     <script src="Myweb.js"></script>
-</body>
+  </body>
 </html>
