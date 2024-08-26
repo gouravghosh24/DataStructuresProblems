@@ -169,20 +169,6 @@
     ]
   },
   {
-    "name": "Array",
-    "folders": [
-      {
-        "name": "Array",
-        "files": [
-          {
-            "name": "ConceptPract.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/ARRAYS/ConceptPract.cpp"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "maps",
     "folders": [
       {
@@ -247,6 +233,20 @@
           {
             "name": "BinarySearchUsingSTL.cpp",
             "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/SEARCHINGSORTING/BinarySearchUsingSTL.cpp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arrays",
+    "folders": [
+      {
+        "name": "Arrays",
+        "files": [
+          {
+            "name": "Arrays1.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/ARRAYS/Arrays1.cpp"
           }
         ]
       }
