@@ -97,6 +97,7 @@ main {
 
 .code-list {
   width: 40%;
+  padding: 5px;
 }
 
 .code-list h2 {
