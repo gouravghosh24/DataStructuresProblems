@@ -2,13 +2,13 @@ body {
   font-family: 'Moderustic', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #111315;
-  color: #fff;
+  background-color: #a6ffe3;
+  color: #000;
 }
 
 header {
   background-color: #f1f1f1;
-  color: #ffffff;
+  color: #000;
   padding: 1em;
   text-align: center;
 }
@@ -81,7 +81,7 @@ main {
 
 .about-me h2 {
   margin-bottom: 20px;
-  color: #8deed8;
+  color: #07584c;
 }
 
 .about-me img {
@@ -113,12 +113,12 @@ main {
 }
 
 .skills h2 {
-  color: #8deed8;
+  color: #07584c;
   
 }
 
 .skills h3 {
-  color: #00c7ca;
+  color: #07584c;
 }
 
 .code-list {
@@ -129,7 +129,7 @@ main {
 
 .code-list h2 {
   margin-top: 0;
-  color: #ffae46;
+  color: #07584c;
   text-align: center;
 }
 
@@ -195,7 +195,7 @@ pre {
 
 #code-results {
   padding: 20px;
-  background-color: #111315;
+  background-color: #a6ffe3;
   max-height: 800px;
   overflow-y: auto;
   white-space: pre-wrap;
