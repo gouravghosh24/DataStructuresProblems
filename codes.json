@@ -7,8 +7,8 @@
         "name": "Operators",
         "files": [
           {
-            "name": "Operatorsusingcp.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Operators.cpp"
+            "name": "Operators.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/Operators.cpp"
           }
         ]
       }
@@ -21,8 +21,8 @@
         "name": "Hello World",
         "files": [
           {
-            "name": "Main.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Main.cpp"
+            "name": "NamasteDuniya.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/NamasteDuniya.cpp"
           }
         ]
       }
@@ -36,7 +36,7 @@
         "files": [
           {
             "name": "Loops.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Loops.cpp"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/Loops.cpp"
           }
         ]
       }
@@ -50,7 +50,7 @@
         "files": [
           {
             "name": "DoWhileLoops.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/DoWhileLoops.cpp"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/DoWhileLoops.cpp"
           }
         ]
       }
@@ -64,7 +64,7 @@
         "files": [
           {
             "name": "NumberSystems.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/NumberSystems.cpp"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/NumberSystems.cpp"
           }
         ]
       }
@@ -77,8 +77,8 @@
         "name": "Function",
         "files": [
           {
-            "name": "FunctionsInCPP.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/NumberSystems.cpp"
+            "name": "03 BASICLvOne/FunctionsInCPP.cpp",
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/FunctionsInCPP.cpp"
           }
         ]
       }
@@ -92,7 +92,7 @@
         "files": [
           {
             "name": "SwitchCases.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/SwitchCases.cpp"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/SwitchCases.cpp"
           }
         ]
       }
@@ -106,7 +106,7 @@
         "files": [
           {
             "name": "Variables&DataTypes.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Variables%26DataTypes.cpp"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/Variables%26DataTypes.cpp"
           }
         ]
       }
@@ -134,7 +134,7 @@
         "files": [
           {
             "name": "TernaryOperator.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/TernaryOperator.cpp"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/TernaryOperator.cpp"
           }
         ]
       }
@@ -148,7 +148,7 @@
         "files": [
           {
             "name": "TypeCastings.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/TypeCastings.cpp"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/03%20BASICLvOne/TypeCastings.cpp"
           }
         ]
       }
@@ -162,7 +162,7 @@
         "files": [
           {
             "name": "Main.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/INTROTOC%2B%2B/Main.cpp"
+            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/02%20INTROTODUCTION/Main.cpp"
           }
         ]
       }
@@ -176,7 +176,7 @@
         "files": [
           {
             "name": "Map1.cpp",
-            "url": "https://raw.githubusercontent.com/gouravghosh24/DsaAlgo/master/MAP/Map1.cpp"
+            "url": "https://github.com/gouravghosh24/DsaAlgo/blob/master/14%20MAP/Map1.cpp"
           }
         ]
       }
